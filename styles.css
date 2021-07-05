@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.select {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.select label {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    font-weight: bold;
+}
+
+select {
+    border: 2px solid black;
+    width: 120px;
+    height: 30px;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.result {
+    color: rgb(7, 51, 102);
+    text-align: center;
+}
+
+.error {
+    color: rgb(182, 10, 10);
+}
